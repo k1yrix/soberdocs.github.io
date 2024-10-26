@@ -10,7 +10,7 @@ Sober is pretty easy to install, you will need the following to install and use 
 
 * An x86_64 computer with SSE4 instruction set or higher. (CPU for 2013+ should be fine)
 * A modern Linux distrobution (Ex: Ubuntu 24.04, Fedora 40, Linux Mint 21)
-* A Vulkan 1.1+ capable graphics card, check [FAQ](../docs/faq.html) for more info.
+* A Vulkan 1.1+ capable graphics card, check [FAQ](../docs/FAQ.html) for more info.
 * Flatpak installed on your system.
 
 >  If you don't have Flatpak installed on your system, you can install it by going to https://flatpak.org/setup/ and following the guide there for the installation of Flatpak.
