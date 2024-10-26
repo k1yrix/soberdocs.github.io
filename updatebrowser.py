@@ -10,4 +10,4 @@ with open("md/filelist.md", "w") as f:
 
 for i in fileList:
     with open("md/filelist.md", "a") as f:
-        f.write(f"# [{i.removesuffix(".html")}](../soberdocs/docs/{i})\n")
+        f.write(f"# [{i.removesuffix(".html")}](/docs/{i})\n")
