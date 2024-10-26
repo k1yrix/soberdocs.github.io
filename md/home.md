@@ -7,7 +7,7 @@ Sober is:
 
 <p class="tiny">[*] Other options are available such as a Virtual Machine but they are very hard to setup.<p>
 
-This documentation is made with public knowledge of Sober, so soe things may be off or just completely wrong.
+This documentation is made with public knowledge of Sober, so things may be off or just completely wrong.
 
 In short, Sober allows you to play Roblox on Linux by using the Android version of Roblox with a special runtime for it. You can find the Sober website [here](https://sober.vinegarhq.org/).
 
