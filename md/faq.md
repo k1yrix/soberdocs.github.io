@@ -16,7 +16,7 @@ A: If it didn't say explicitly you have a wrong password or something like that,
 A: Last time I checked Roblox on Android doesn't have a studio app. Use [Vinegar](https://vinegarhq.org/) for Roblox Studio which uses the Windows version of Roblox Studio with Wine.
 
 ## Q: Why is this closed source?
-A: From what we know, it's partially so Roblox can't find how to block it easily and so 9 year old script kiddies aren't annoying in pull requests.
+A: When the development team was making Sober, they wanted to ensure it wouldn't meet the same fate as Vinegar (being blocked). They recommended to make Sober closed source, to ensure no Exploit developers abuse it. sadly, this is a necessary measure to ensure the continued existence of Roblox on Linux. On the bright side, Sober will not be blocked, if no exploits are made for it, which the dev team will ensure.
 
 ## Q: Roblox is crashing after around 5-10 minutes in game!
 If you're on Wayland it's because Wayland support isn't great at the moment so you'll want to turn off Wayland support with [Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal). And if you're on X11, don't know how to help you.
