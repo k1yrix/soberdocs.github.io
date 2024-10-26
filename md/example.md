@@ -1,12 +1,8 @@
 # Example
+---
 
-## Example
+This page is for maintainers to copy off of.
 
-### Example
+> **INFO:** Blockquote example.
 
-Example
-
-<hr>
-
-yes
- <img src="../images/sober.svg" class="sobericon">
+[Link](https://example.com)

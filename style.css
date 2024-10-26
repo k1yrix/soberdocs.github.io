@@ -6,7 +6,7 @@
   --text: #fff;
   --tinytext: #b3b3b3;
   --accent: #75cf4c;
-  --accent2: #499b34;
+  --accent2: #ff7220;
   --shadows: #111;
   --screenwidth: ;
 }
@@ -68,6 +68,10 @@ blockquote {
 
 .spoiler {
 filter: blur(10px);
+}
+
+.smallerimg {
+  width: 512px;
 }
 
 .spoiler:active:active {
