@@ -1,11 +1,9 @@
 ## Welcome to the unnoficial documentation for Sober!
 
 Sober is:
-* The best (and only) way of running Roblox on Linux*
+* The easiest way of running Roblox on Linux
 * A runtime for Roblox that runs natively on your machine
 * Easy to install and setup
-
-<p class="tiny">[*] Other options are available such as a Virtual Machine but they are very hard to setup.<p>
 
 This documentation is made with public knowledge of Sober, so things may be off or just completely wrong.
 
