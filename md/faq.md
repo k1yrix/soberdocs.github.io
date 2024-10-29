@@ -4,6 +4,13 @@
 ## Q: Why Does this exist?
 A: Because people on Linux still want to be able to play Roblox easily.
 
+## Q: What is the minimum hardware needed?
+In order to run Sober you need:
+* CPU: Anything with SSE 4.2 or higher (CPU from 2013+ should be fine)
+* Ram: 4gb, although it might run with less
+* GPU: Vulkan 1.1+ graphics card, check "Q: Is the [GPU here] compatible?" for more info
+* Storage: 1-2gb
+
 ## Q: Is the [GPU here] compatible?
 A: If it was made in the last 8 years or so and has Vulkan support either in Mesa or Nvidia drivers, then yes. If you're not sure, check [GPUInfo](https://vulkan.gpuinfo.org/) and search your graphics card. If it doesn't support Vulkan 1.1 or higher, you can try the `--opengl` argument when launching Sober to force OpenGL, if it still doesn't work, you're out of luck.
 
