@@ -21,7 +21,7 @@ A: If it was made in the last 8 years or so and has Vulkan support either in Mes
 ## Q: I can't log in to Roblox!
 A: If it didn't say explicitly you have a wrong password or something like that, reopen Sober and check if it logged you in. If that didn't work, try **"Login with Another Device"** on the login page.
 
-## Q: Studio suport?
+## Q: Studio support?
 A: Roblox does not have Studio for Android. Use [Vinegar](https://vinegarhq.org/) for Roblox Studio, which uses the Windows version of Roblox Studio with Wine.
 
 ## Q: Why is Sober closed source?
