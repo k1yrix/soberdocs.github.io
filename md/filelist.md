@@ -5,4 +5,4 @@
 # [FAQ](/docs/FAQ.html)
 # [Installation](/docs/Installation.html)
 # [Tips](/docs/Tips.html)
-# [Credits](/docs/Credits.html)
+# [Contributors](/docs/Contributors.html)
