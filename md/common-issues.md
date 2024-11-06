@@ -10,12 +10,12 @@ The main culprit behind this is basically due to textures being loaded at the hi
 Append the following FFlags into `~/.var/app/org.vinegarhq.Sober/data/sober/exe/ClientSettings/ClientAppSettings.json`
 
 ```
-"DFIntTextureQualityOverride": "2",
-"DFFlagTextureQualityOverrideEnabled": "True"
+"DFIntTextureQualityOverride": 2,
+"DFFlagTextureQualityOverrideEnabled": true
 ```
 
 ## RBXCRASH: OutOfMemory (swOcc_alloc failed on [x] bytes [y] alignment)
-Apparently this one is an entirely different problem compared to the failed to allocate memory variant. This one freaks out during the allocation for some reason and does not know what to do next, so it crashes before anything could be loaded into the video memory. This one isn’t NVIDIA exclusive, as confirmed by multiple witnesses.
+Apparently this one is an entirely different problem compared to the failed to allocate memory variant. This one freaks out during the allocation due to problems of rendering in a specific way and does not know what to do next, so it crashes before anything could be loaded into the video memory. This one isn’t NVIDIA exclusive, as confirmed by multiple people without NVIDIA hardware.
 
 ### Solution
 Append the following FFlags into `~/.var/app/org.vinegarhq.Sober/data/sober/exe/ClientSettings/ClientAppSettings.json`
