@@ -56,7 +56,7 @@ Unfortunately there isn't any that could help this problem.
 ## Sober just randomly crashes
 Depends on if the logs actually provided something useful. Otherwise, we cannot give a definite answer.
 
-## It say Sober couldn't launch because my card does not support Vulkan.
+## It say Sober couldn't launch because my card does not support Vulkan
 Please see [the FAQ](https://soberdocs.github.io/docs/FAQ.html) and see question 3. Otherwise, you are out of luck.
 
 ## Sober does not launch to my dedicated GPU
@@ -70,3 +70,6 @@ Virtual machines are not generally supported. Unless you can passthrough the GPU
 
 > [!NOTE]
 > It kinda does have support, depending if the VM host you're running has OpenGL support, but you're going to get terrible peformance out of it.
+
+## I cannot install Sober on an ARM64 machine
+That's because there isn't any support for ARM devices at the moment.
