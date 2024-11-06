@@ -9,7 +9,7 @@ No emulators or virtual machines. Up to twice the performance of native Windows"
 Sober is pretty easy to install, you will need the following to install and use Sober:
 
 * An x86_64 computer with SSE4 instruction set or higher. (CPU for 2013+ should be fine)
-* A modern Linux distrobution (Ex: Ubuntu 24.04, Fedora 40, Linux Mint 21)
+* A modern Linux distribution (Ex: Ubuntu 24.04, Fedora 40, Linux Mint 21)
 * A Vulkan 1.1+ capable graphics card, check [FAQ](../docs/FAQ.html) for more info.
 * Flatpak installed on your system.
 
@@ -21,8 +21,12 @@ Then in it should appear in your app grid on Gnome or your Application Launcher 
 
 <img src="../images/theendisnotnear.png" class="smallerimg">
 
+Once you click `Open Sober`, everything should just work! If you have any issues, refer to [FAQ](../docs/FAQ.html) for help, or join the VinegarHQ Discord server [here](https://discord.gg/vinegarhq-1069506340973707304) for more specific issues.
+
 ---
 
 ## Post-Install
 
 Like the official Roblox client, there really isn't anything that you can configure by default outside of the app. But the [tips](../docs/Tips.html) page is here to help you with some helpful things you might want such as FFlags or bringing the old Oof sound back.
+
+---
