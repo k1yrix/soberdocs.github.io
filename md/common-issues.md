@@ -48,7 +48,7 @@ See above.
 FMOD freaked out because something sound-related horribly went wrong and did not know what to do, so it crashed.
 
 ### Solution
-Unfortunately there isn't that could help this problem.
+Unfortunately there isn't any that could help this problem.
 
 ### Affected games
 - [Rivals](https://www.roblox.com/games/17625359962)
@@ -58,3 +58,14 @@ Depends on if the logs actually provided something useful. Otherwise, we cannot 
 
 ## It say Sober couldn't launch because my card does not support Vulkan.
 Please see [the FAQ](https://soberdocs.github.io/docs/FAQ.html) and see question 3. Otherwise, you are out of luck.
+
+## Sober does not launch to my dedicated GPU
+GPUs using Mesa should be fine as long as it's recent. If you're using an NVIDIA card, the driver version installed on your system must match with the Flatpak NVIDIA drivers that is installed on the system. (For exmaple, the installed 560 drivers cannot run with NVIDIA Flatpak 555 drivers)
+
+### Solution
+You can update by typing `flatpak update` on your terminal.
+
+## I'm running a virtual machine, but I cannot launch Sober!
+Virtual machines are not generally supported. Unless you can passthrough the GPU, it's advised against so to try and run Sober on a virtual machine.
+
+<p class="tiny">It kinda does have support, depending if the VM host you're running has OpenGL support, but you're going to get terrible peformance out of it.<p>
