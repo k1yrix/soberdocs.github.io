@@ -1,6 +1,6 @@
 # Tested Linux Distros + Versions
 
 ## Distro
-| Tested version | Test date | Installs? | Runs? |
-| -------------- | --------- | --------- | ----- |
-| Version        | MM/DD/YY  | Yes       | Yes   |
+| Tested version | Test date | Method of testing      | Installs? | Runs? | Notes |
+| -------------- | --------- | ---------------------- | --------- | ----- | ----- |
+| Version        | MM/DD/YY  | VMware Workstation xxx | Yes       | Yes   |       |
