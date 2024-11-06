@@ -26,7 +26,7 @@ Append the following FFlags into `~/.var/app/org.vinegarhq.Sober/data/sober/exe/
 ```
 
 ### Affected games
-Evade
+- [Evade](https://www.roblox.com/games/9872472334)
 
 ## ERROR: Wayland display connection closed by server (fatal)
 Wayland basically screwed you over. It's not that stable on Sober compared to X11.
@@ -49,6 +49,9 @@ FMOD freaked out because something sound-related horribly went wrong and did not
 
 ### Solution
 Unfortunately there isn't that could help this problem.
+
+### Affected games
+- [Rivals](https://www.roblox.com/games/17625359962)
 
 ## Sober just randomly crashes
 Depends on if the logs actually provided something useful. Otherwise, we cannot give a definite answer.
