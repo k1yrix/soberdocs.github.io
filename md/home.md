@@ -1,4 +1,4 @@
-## Welcome to the unnoficial documentation for Sober!
+## Welcome to the unofficial documentation for Sober!
 
 Sober is:
 * The easiest way of running Roblox on Linux
