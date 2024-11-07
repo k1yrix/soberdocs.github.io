@@ -27,7 +27,7 @@
 ### openSUSE (Leap)
 | Tested version | Test date | Method of testing      | Installs? | Runs? | Notes |
 | -------------- | --------- | ---------------------- | --------- | ----- | ----- |
-| Version        | MM/DD/YY  | VMware Workstation xxx | Yes       | Yes   |       |
+| TBA            | TBA       | TBA                    | TBA       | TBA   |       |
 
 ## Rolling release distros
 > Rolling release distros usually don't have a point release version. For this, it will be tested peridotically. On the table, the test date is the most contextical.
