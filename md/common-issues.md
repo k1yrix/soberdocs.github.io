@@ -68,7 +68,6 @@ You can update by typing `flatpak update` on your terminal.
 ## I'm running a virtual machine, but I cannot launch Sober!
 Virtual machines are not generally supported. Unless you can passthrough the GPU, it's advised against so to try and run Sober on a virtual machine.
 
-> [!NOTE]
 > It kinda does have support, depending if the VM host you're running has OpenGL support, but you're going to get terrible peformance out of it.
 
 ## I cannot install Sober on an ARM64 machine
