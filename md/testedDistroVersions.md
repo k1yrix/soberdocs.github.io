@@ -1,5 +1,7 @@
 # Tested Linux Distros + Versions
 
+---
+
 ## Point release distros
 ### Debian
 | Tested version | Test date | Test authored by                              | Test method                    | Installs? | Runs? | Notes |
@@ -28,6 +30,8 @@
 | Tested version | Test date | Test authored by                              | Method of testing      | Installs? | Runs? | Notes |
 | -------------- | --------- | --------------------------------------------- | ---------------------- | --------- | ----- | ----- |
 | TBA            | TBA       |                                               |                        | TBA       | TBA   |       |
+
+---
 
 ## Rolling release distros
 > Rolling release distros usually don't have a point release version. For this, it will be tested peridotically. On the table, the test date is the most contextical.
