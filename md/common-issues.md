@@ -60,7 +60,7 @@ Depends on if the logs actually provided something useful. Otherwise, we cannot 
 Please see [the FAQ](https://soberdocs.github.io/docs/FAQ.html) and see question 3. Otherwise, you are out of luck.
 
 ## Sober does not launch to my dedicated GPU
-GPUs using Mesa should be fine as long as it's recent. If you're using an NVIDIA card, the driver version installed on your system must match with the Flatpak NVIDIA drivers that is installed on the system. (For exmaple, the installed 560 drivers cannot run with NVIDIA Flatpak 555 drivers)
+GPUs using Mesa should be fine as long as it's recent. If you're using an NVIDIA card, the driver version installed on your system must match with the Flatpak NVIDIA drivers that is installed on the system. (For exmaple, the installed 560 system drivers cannot run with NVIDIA Flatpak 555 drivers)
 
 ### Solution
 You can update by typing `flatpak update` on your terminal.
