@@ -21,7 +21,7 @@ Then in it should appear in your app grid on Gnome or your Application Launcher 
 
 <img src="../images/theendisnotnear.png" class="smallerimg">
 
-Once you click `Open Sober`, everything should just work! If you have any issues, refer to [FAQ](../docs/FAQ.html) for help, or join the VinegarHQ Discord server [here](https://discord.gg/vinegarhq-1069506340973707304) for more specific issues.
+Once you click `Open Sober`, everything should just work! If you have any issues, refer to [FAQ](../docs/FAQ.html) or the [list of common issues](../docs/CommonIssues.html) for help, or join the VinegarHQ Discord server [here](https://discord.gg/vinegarhq-1069506340973707304) for more specific issues.
 
 ---
 
