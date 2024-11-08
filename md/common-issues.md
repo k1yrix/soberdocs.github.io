@@ -76,7 +76,7 @@ Please see [the FAQ](https://soberdocs.github.io/docs/FAQ.html) and see question
 ---
 
 ## Sober does not launch to my dedicated GPU
-GPUs using Mesa should be fine as long as it's recent. If you're using an NVIDIA card, the driver version installed on your system must match with the Flatpak NVIDIA drivers that is installed on the system. (For exmaple, the installed 560 system drivers cannot run with NVIDIA Flatpak 555 drivers)
+GPUs using Mesa should be fine as long as it's recent. If you're using an NVIDIA card, the driver version installed on your system must match with the Flatpak NVIDIA drivers that is installed on the system. (For example, the installed 560 system drivers cannot run with NVIDIA Flatpak 555 drivers)
 
 ### Solution
 You can update by typing `flatpak update` on your terminal.
@@ -86,7 +86,7 @@ You can update by typing `flatpak update` on your terminal.
 ## I'm running a virtual machine, but I cannot launch Sober!
 Virtual machines are not generally supported. Unless you can passthrough the GPU, it's advised against so to try and run Sober on a virtual machine.
 
-> It kinda does have support, depending if the VM host you're running has OpenGL support, but you're going to get terrible peformance out of it.
+> It kinda does have support, depending if the VM host you're running has OpenGL support, but you're going to get terrible performance out of it.
 
 ---
 
