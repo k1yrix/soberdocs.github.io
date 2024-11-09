@@ -49,7 +49,7 @@
 ### Manjaro
 | Test date | Test authored by                              | Test method               | Installs? | Runs? | Notes |
 | --------- | --------------------------------------------- | ------------------------- | --------- | ----- | ----- |
-| 11/08/24  | [kirbix (k1yrix)](https://github.com/k1yrix)  | VMware Workstation 17.6.1 | Yes       | Yes   |       |
+| 11/08/24  | [kirbix (k1yrix)](https://github.com/k1yrix)  | VMware Workstation 17.6.1 | Yes       | No    | Mesa too old to attach to X11, libEGL too old to know if screen is DRI3 capable; despite able to run barebones, unable to install (and therefore run) Roblox under these conditions (similar to Ubuntu 20.04 LTS problem) |
 
 ### openSUSE (Tumbleweed)
 | Test date | Test authored by                              | Test method               | Installs? | Runs? | Notes |
