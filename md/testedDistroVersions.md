@@ -54,4 +54,4 @@
 ### openSUSE (Tumbleweed)
 | Test date | Test authored by                              | Test method               | Installs? | Runs? | Notes |
 | --------- | --------------------------------------------- | ------------------------- | --------- | ----- | ----- |
-| TBA       |                                               |                           | TBA       | TBA   |       |
+| 11/08/24  | [kirbix (k1yrix)](https://github.com/k1yrix)  | VMware Workstation 17.6.1 | Yes       | Yes   |       |
