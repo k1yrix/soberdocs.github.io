@@ -7,6 +7,7 @@
   --tinytext: #b3b3b3;
   --accent: #75cf4c;
   --accent2: #ff7220;
+  --accent3: #598a43;
   --shadows: #111;
   --screenwidth: ;
 }
@@ -38,6 +39,9 @@ text-decoration: none;
 
 h1 {
   line-height: 120%;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: var(--alt);
 }
 
 img {
@@ -195,6 +199,13 @@ audio {
   border-style:solid;
   border-color: var(--accent);
   border-radius: 30pt;
+}
+
+table, th, td {
+  border: 1px solid var(--accent3);
+  padding: 20px;
+  border-radius: 10px;
+  border-collapse: collapse;
 }
 
 .topnav {
