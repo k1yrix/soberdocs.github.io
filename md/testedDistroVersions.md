@@ -27,7 +27,7 @@
 | 41             | 11/01/24  | [kirbix (k1yrix)](https://github.com/k1yrix)  | Phyiscal machine               | Yes       | Yes   |       |
 
 ### openSUSE (Leap)
-| Tested version | Test date | Test authored by                              | Method of testing      | Installs? | Runs? | Notes |
+| Tested version | Test date | Test authored by                              | Test method            | Installs? | Runs? | Notes |
 | -------------- | --------- | --------------------------------------------- | ---------------------- | --------- | ----- | ----- |
 | TBA            | TBA       |                                               |                        | TBA       | TBA   |       |
 
@@ -37,11 +37,21 @@
 > Rolling release distros usually don't have a point release version. For this, it will be tested peridotically. On the table, the test date is the most contextical.
 
 ### Arch Linux
-| Test date | Test authored by                              | Method of testing      | Installs? | Runs? | Notes |
-| --------- | --------------------------------------------- | ---------------------- | --------- | ----- | ----- |
-| TBA       |                                               |                        | TBA       | TBA   |       |
+| Test date | Test authored by                              | Test method               | Installs? | Runs? | Notes |
+| --------- | --------------------------------------------- | ------------------------- | --------- | ----- | ----- |
+| 11/08/24  | [kirbix (k1yrix)](https://github.com/k1yrix)  | VMware Workstation 17.6.1 | Yes       | Yes   |       |
+
+### EndeavourOS
+| Test date | Test authored by                              | Test method               | Installs? | Runs? | Notes |
+| --------- | --------------------------------------------- | ------------------------- | --------- | ----- | ----- |
+| 11/08/24  | [kirbix (k1yrix)](https://github.com/k1yrix)  | VMware Workstation 17.6.1 | Yes       | Yes   |       |
+
+### Manjaro
+| Test date | Test authored by                              | Test method               | Installs? | Runs? | Notes |
+| --------- | --------------------------------------------- | ------------------------- | --------- | ----- | ----- |
+| 11/08/24  | [kirbix (k1yrix)](https://github.com/k1yrix)  | VMware Workstation 17.6.1 | Yes       | Yes   |       |
 
 ### openSUSE (Tumbleweed)
-| Test date | Test authored by                              | Method of testing      | Installs? | Runs? | Notes |
-| --------- | --------------------------------------------- | ---------------------- | --------- | ----- | ----- |
-| TBA       |                                               |                        | TBA       | TBA   |       |
+| Test date | Test authored by                              | Test method               | Installs? | Runs? | Notes |
+| --------- | --------------------------------------------- | ------------------------- | --------- | ----- | ----- |
+| TBA       |                                               |                           | TBA       | TBA   |       |
