@@ -49,7 +49,7 @@
 ### Manjaro
 | Test date | Test authored by                              | Test method               | Installs? | Runs? | Notes |
 | --------- | --------------------------------------------- | ------------------------- | --------- | ----- | ----- |
-| 11/08/24  | [kirbix (k1yrix)](https://github.com/k1yrix)  | VMware Workstation 17.6.1 | Yes       | No    | Mesa unable to attach to X11, libEGL unable to know if screen is DRI3 capable; despite able to run barebones, unable to install (and therefore run) Roblox under these conditions (relevantly similar to Ubuntu 20.04 LTS problem) |
+| 11/08/24  | [kirbix (k1yrix)](https://github.com/k1yrix)  | VMware Workstation 17.6.1 | Yes       | Inconclusive | For some reason, Manjaro faced the relevant issue when Ubuntu 20.04 LTS was tested. I have no idea what is going on with Mesa nor I have no idea who's fault is it that causes this issue, despite it should be an up-to-date version/system. Will require further testing. |
 
 ### openSUSE (Tumbleweed)
 | Test date | Test authored by                              | Test method               | Installs? | Runs? | Notes |
