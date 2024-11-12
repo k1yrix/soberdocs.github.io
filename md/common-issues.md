@@ -4,12 +4,14 @@
 
 ## RBXCRASH: OutOfMemory (Failed to allocate memory. size = [x], alignment = [y])
 
-That means your graphics card ran out of video memory that Sober is trying to load on. This is especially problematic for NVIDIA users because they have terrible written Linux drivers for VRAM handling. (There has also been reports of Intel Haswell and earlier iGPU users facing issues like this too)
+That means your graphics card ran out of video memory that Sober is trying to load on. This is especially problematic for NVIDIA users because the propritary drivers have terrible written Linux drivers for VRAM handling. (There has been reports that the open kernel for Turing+ don't have this issue. There has also been reports of Intel Haswell and earlier iGPU users facing issues like this too)
 
 The main culprit behind this is basically due to textures being loaded at the highest quality possible, which is the default setting.
 
 ### Solution
-Append the following FFlags into `~/.var/app/org.vinegarhq.Sober/data/sober/exe/ClientSettings/ClientAppSettings.json`
+The main solution would be using the open kernel drivers.
+
+If you don't have Turing+, append the following FFlags into `~/.var/app/org.vinegarhq.Sober/data/sober/exe/ClientSettings/ClientAppSettings.json`
 
 ```
 "DFIntTextureQualityOverride": 2,
