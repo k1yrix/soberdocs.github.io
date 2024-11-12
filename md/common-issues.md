@@ -9,7 +9,7 @@ That means your graphics card ran out of video memory that Sober is trying to lo
 The main culprit behind this is basically due to textures being loaded at the highest quality possible, which is the default setting.
 
 ### Solution
-The main solution would be using the open kernel drivers.
+The main solution would be using the official open kernel drivers. (Not to be confused with Nouveau)
 
 If you don't have Turing+, append the following FFlags into `~/.var/app/org.vinegarhq.Sober/data/sober/exe/ClientSettings/ClientAppSettings.json`
 
