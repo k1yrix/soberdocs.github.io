@@ -18,6 +18,8 @@ If you don't have Turing+ or non-NVIDIA hardware that is encountering this issue
 "DFFlagTextureQualityOverrideEnabled": true
 ```
 
+If it doesn't work, set the `"DFIntTextureQualityOverride"` FFlag to `1` instead. Otherwise, you are out of luck.
+
 ---
 
 ## RBXCRASH: OutOfMemory (swOcc_alloc failed on [x] bytes [y] alignment)
