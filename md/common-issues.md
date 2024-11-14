@@ -18,7 +18,7 @@ Append the following FFlags into `~/.var/app/org.vinegarhq.Sober/data/sober/exe/
 
 If it doesn't work, set the `"DFIntTextureQualityOverride"` FFlag to `1` instead. Otherwise, you might be out of luck.
 
-> Essentially, to avoid this without descaling textures, you would need an NVIDIA GPU that has 4 GB or greater VRAM.
+> Essentially, to avoid this problem without downscaling textures, you would need an NVIDIA GPU that has 4 GB or greater VRAM. Alternatively, you could also use a Mesa capable GPU (AMD/Intel).
 
 ---
 
