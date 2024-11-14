@@ -18,6 +18,8 @@ Append the following FFlags into `~/.var/app/org.vinegarhq.Sober/data/sober/exe/
 
 If it doesn't work, set the `"DFIntTextureQualityOverride"` FFlag to `1` instead. Otherwise, you might be out of luck.
 
+> Essentially, to avoid this without descaling textures, you would need an NVIDIA GPU that has 4 GB or greater VRAM.
+
 ---
 
 ## RBXCRASH: OutOfMemory (swOcc_alloc failed on [x] bytes [y] alignment)
