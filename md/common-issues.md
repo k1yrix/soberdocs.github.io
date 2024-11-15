@@ -42,6 +42,10 @@ Append the following FFlags into `~/.var/app/org.vinegarhq.Sober/data/sober/exe/
 Wayland basically screwed you over. It's not that stable on Sober compared to X11.
 
 ### Solution
+Run ```flatpak override --user --socket=x11 --nosocket=wayland org.vinegarhq.Sober```
+
+OR
+
 Install flatseal and:
 - Disable the wayland socket
 - Enable the X11 sockets
