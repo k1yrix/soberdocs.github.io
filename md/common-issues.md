@@ -4,14 +4,12 @@
 
 ## RBXCRASH: OutOfMemory (Failed to allocate memory. size = [x], alignment = [y])
 
-That means your graphics card ran out of video memory that Sober is trying to load on. This is especially problematic for NVIDIA users because the propritary drivers have terrible written Linux drivers for VRAM handling. (There has been reports that the open kernel for Turing+ don't have this issue. There has also been reports of Intel Haswell and earlier iGPU users facing issues like this too)
+That means your graphics card ran out of video memory that Sober is trying to load on. This is especially problematic for NVIDIA users because the drivers have terrible written Linux drivers for VRAM handling. (There has been reports of Intel Haswell and earlier iGPU users facing issues like this too)
 
 The main culprit behind this is basically due to textures being loaded at the highest quality possible, which is the default setting.
 
 ### Solution
-If you have NVIDIA hardware and it is Turing+, the main solution would be using the official open kernel drivers. (Not to be confused with Nouveau)
-
-If you don't have Turing+ or non-NVIDIA hardware that is encountering this issue, append the following FFlags into `~/.var/app/org.vinegarhq.Sober/data/sober/exe/ClientSettings/ClientAppSettings.json`
+Append the following FFlags into `~/.var/app/org.vinegarhq.Sober/data/sober/exe/ClientSettings/ClientAppSettings.json`
 
 ```
 "DFIntTextureQualityOverride": 2,
@@ -19,6 +17,8 @@ If you don't have Turing+ or non-NVIDIA hardware that is encountering this issue
 ```
 
 If it doesn't work, set the `"DFIntTextureQualityOverride"` FFlag to `1` instead. Otherwise, you might be out of luck.
+
+> Essentially, to avoid this problem without downscaling textures, you would need an NVIDIA GPU that has 4 GB or greater VRAM. Alternatively, you could also use a Mesa capable GPU (AMD/Intel).
 
 ---
 
@@ -100,3 +100,10 @@ Virtual machines are not generally supported. Unless you can passthrough the GPU
 
 ## I cannot install Sober on an ARM64 machine
 That's because there isn't any support for ARM devices at the moment.
+
+---
+
+## I launched Sober through the browser. It says I cannot join a game because I don't have the permission to do so! (Error 524)
+If you haven't logged into Sober, you should do it now. Afterwards you will be able to join from the browser for future sessions. (Please see question #4 on [the FAQ](https://soberdocs.github.io/docs/FAQ.html) for more information) Otherwise, it could be just a generic 524.
+
+> Sober does not launch the same way as it usually does on Windows or macOS. Sober will only carry over the join game request, not including login.
