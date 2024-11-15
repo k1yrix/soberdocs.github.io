@@ -27,9 +27,9 @@
 | 41             | 11/01/24  | [kirbix (k1yrix)](https://github.com/k1yrix)  | Phyiscal machine               | Yes       | Yes   |       |
 
 ### openSUSE (Leap)
-| Tested version | Test date | Test authored by                              | Test method            | Installs? | Runs? | Notes |
-| -------------- | --------- | --------------------------------------------- | ---------------------- | --------- | ----- | ----- |
-| TBA            | TBA       |                                               |                        | TBA       | TBA   |       |
+| Tested version | Test date | Test authored by                              | Test method               | Installs? | Runs? | Notes |
+| -------------- | --------- | --------------------------------------------- | ------------------------- | --------- | ----- | ----- |
+| 15.6           | 11/15/24  | [kirbix (k1yrix)](https://github.com/k1yrix)  | VMware Workstation 17.6.1 | Yes       | Yes   |       |
 
 ---
 
