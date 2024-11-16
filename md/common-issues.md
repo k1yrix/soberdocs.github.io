@@ -63,13 +63,11 @@ See above.
 ---
 
 ## FMOD API error
-FMOD freaked out because something sound-related horribly went wrong and did not know what to do, so it crashed.
-
-### Solution
-Unfortunately there isn't any that could help this problem.
+Roblox uses FMOD improperly, resulting in FMOD errors sometimes being spammed into the FLog. These errors happen on real Android devices as well, and are usually not a problem.
 
 ### Affected games
 - [Rivals](https://www.roblox.com/games/17625359962)
+- [a dusty trip](https://www.roblox.com/games/16389395869)
 
 ---
 
