@@ -22,22 +22,6 @@ If it doesn't work, set the `"DFIntTextureQualityOverride"` FFlag to `1` instead
 
 ---
 
-## RBXCRASH: OutOfMemory (swOcc_alloc failed on [x] bytes [y] alignment)
-Apparently this one is an entirely different problem compared to the failed to allocate memory variant. This one freaks out during the allocation due to problems of rendering in a specific way and does not know what to do next, so it crashes before anything could be loaded into the video memory. This one isn’t NVIDIA exclusive, as confirmed by multiple people without NVIDIA hardware.
-
-### Solution
-Append the following FFlags into `~/.var/app/org.vinegarhq.Sober/data/sober/exe/ClientSettings/ClientAppSettings.json`
-
-```
-"DFFlagUseVisBugChecks": false,
-"FFlagEnableVisBugChecks27": false
-```
-
-### Affected games
-- [Evade](https://www.roblox.com/games/9872472334)
-
----
-
 ## ERROR: Wayland display connection closed by server (fatal)
 Wayland basically screwed you over. It's not that stable on Sober compared to X11.
 
@@ -81,6 +65,14 @@ Please see [the FAQ](https://soberdocs.github.io/docs/FAQ.html) and see question
 
 ---
 
+## Sober does not launch on my outdated system
+Sober only supports Linux kernel version 5.11 and above. If you are on an outdated version of your distro, your kernel might be too outdated to run Sober.
+
+### Solution
+Update your distro to a newer version by following a distro-specific guide.
+
+---
+
 ## Sober does not launch to my dedicated GPU
 GPUs using Mesa should be fine as long as it's recent. If you're using an NVIDIA card, the driver version installed on your system must match with the Flatpak NVIDIA drivers that is installed on the system. (For example, the installed 560 system drivers cannot run with NVIDIA Flatpak 555 drivers)
 
@@ -105,3 +97,11 @@ That's because there isn't any support for ARM devices at the moment.
 If you haven't logged into Sober, you should do it now. Afterwards you will be able to join from the browser for future sessions. (Please see question #4 on [the FAQ](https://soberdocs.github.io/docs/FAQ.html) for more information) Otherwise, it could be just a generic 524.
 
 > Sober does not launch the same way as it usually does on Windows or macOS. Sober will only carry over the join game request, not including login.
+
+---
+
+## No shift lock or camera sensitivity options in the ingame settings
+Roblox sometimes forgets you have a mouse and removes the options.
+
+### Solution
+Move your mouse while joining a game.
