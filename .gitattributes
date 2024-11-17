@@ -1,0 +1,4 @@
+# Linguist overrides because I want markdown include in the language stats
+*.md linguist-detectable=true
+README.md linguist-detectable=false
+readme.md linguist-detectable=false
