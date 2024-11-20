@@ -60,8 +60,8 @@ Depends on if the logs actually provided something useful. Otherwise, we cannot 
 
 ---
 
-## It say Sober couldn't launch because my card does not support Vulkan
-Please see [the FAQ](https://soberdocs.github.io/docs/FAQ.html) and see question 3. Otherwise, you are out of luck.
+## It says Sober couldn't launch because my card does not support Vulkan
+Please see [the FAQ](https://soberdocs.github.io/docs/FAQ.html) and see question 3. Otherwise, you will have to use OpenGL.
 
 ---
 
