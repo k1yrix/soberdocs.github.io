@@ -11,6 +11,9 @@ In short, Sober allows you to play Roblox on Linux by using the Android version 
 
 The Discord server for Sober and Vinegar can be found [here](https://discord.gg/vinegarhq-1069506340973707304).
 
+* Current Sober APK: v649
+* Current official Roblox APK: v652
+
 <hr>
 
 *Roblox*® is a registered Roblox Corporation trademark. *VinegarHQ is not affiliated with Roblox Corporation.*
