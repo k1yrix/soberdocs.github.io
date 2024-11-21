@@ -36,6 +36,8 @@ Install flatseal and:
 
 ![Turn on XWayland](../images/xwaylandforever.png)
 
+> This problem should be fixed in Sober version `0.0.0-9619e88`. If there is an issue, you should report it on VinegarHQ's Discord server.
+
 ---
 
 ## Error 71 (Protocol error) dispatching to Wayland display
@@ -43,6 +45,8 @@ GTK sometimes messes up Wayland calls for some people. Most people should be fin
 
 ### Solution
 See above.
+
+> This problem should be fixed in Sober version `0.0.0-9619e88`. If there is an issue, you should report it on VinegarHQ's Discord server.
 
 ---
 
@@ -105,3 +109,11 @@ Roblox sometimes forgets you have a mouse and removes the options.
 
 ### Solution
 Move your mouse while joining a game.
+
+---
+
+## It says Roblox is out of date (Error 280), but Sober isn't updating!
+It means that the Roblox build Sober is in has reached it's end of the lifespan. If you are reading this, and Sober hasn't been updated, please wait until they do. Otherwise, you will have to run `flatpak update`.
+
+> This is actually an uncommon issue, since it only happens once every approximate month, but this is just here in case it happens.
+> Sober uses a fixed-point release system, which means only one Roblox build is supported at a time per Sober update and there are no automatic updates to the next build. Manually attempting to update Roblox will not work since it requires a specific build version in order to install.
