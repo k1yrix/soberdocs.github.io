@@ -105,3 +105,11 @@ Roblox sometimes forgets you have a mouse and removes the options.
 
 ### Solution
 Move your mouse while joining a game.
+
+---
+
+## Automatic download isn't working (Long hang time, falls back to manual install)
+Six out of ten chances are that your ISP is blocking access to Google Play's APIs, which is what Sober is attempting to contact in order to download the correct APK file. Otherwise, either you should check your internet connection or the API is down.
+
+### Solution
+Use a VPN
