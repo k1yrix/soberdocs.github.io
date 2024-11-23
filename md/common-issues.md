@@ -36,6 +36,8 @@ Install flatseal and:
 
 ![Turn on XWayland](../images/xwaylandforever.png)
 
+> This problem should be fixed in Sober version `0.0.0-9619e88`. If there is an issue, you should report it on VinegarHQ's Discord server.
+
 ---
 
 ## Error 71 (Protocol error) dispatching to Wayland display
@@ -43,6 +45,8 @@ GTK sometimes messes up Wayland calls for some people. Most people should be fin
 
 ### Solution
 See above.
+
+> This problem should be fixed in Sober version `0.0.0-9619e88`. If there is an issue, you should report it on VinegarHQ's Discord server.
 
 ---
 
@@ -60,8 +64,8 @@ Depends on if the logs actually provided something useful. Otherwise, we cannot 
 
 ---
 
-## It say Sober couldn't launch because my card does not support Vulkan
-Please see [the FAQ](https://soberdocs.github.io/docs/FAQ.html) and see question 3. Otherwise, you are out of luck.
+## It says Sober couldn't launch because my card does not support Vulkan
+Please see [the FAQ](https://soberdocs.github.io/docs/FAQ.html) and see question 3. Otherwise, you will have to use OpenGL.
 
 ---
 
@@ -94,7 +98,7 @@ That's because there isn't any support for ARM devices at the moment. There is n
 ---
 
 ## I launched Sober through the browser. It says I cannot join a game because I don't have the permission to do so! (Error 524)
-If you haven't logged into Sober, you should do it now. Afterwards you will be able to join from the browser for future sessions. (Please see question #4 on [the FAQ](https://soberdocs.github.io/docs/FAQ.html) for more information) Otherwise, it could be just a generic 524.
+If you haven't logged into Sober, you should do it now. Afterwards you will be able to join from the browser for future sessions. (Please see question #4 on [the FAQ](https://soberdocs.github.io/docs/FAQ.html#q-i-cant-log-in-to-roblox) for more information) Otherwise, it could be just a generic 524.
 
 > Sober does not launch the same way as it usually does on Windows or macOS. Sober will only carry over the join game request, not including login.
 
@@ -105,3 +109,11 @@ Roblox sometimes forgets you have a mouse and removes the options.
 
 ### Solution
 Move your mouse while joining a game.
+
+---
+
+## It says Roblox is out of date (Error 280), but Sober isn't updating!
+It means that the Roblox build Sober is in has reached it's end of the lifespan. If you are reading this, and Sober hasn't been updated, please wait until they do. Otherwise, you will have to run `flatpak update`.
+
+> This is actually an uncommon issue, since it only happens once every approximate month, but this is just here in case it happens.
+> Sober uses a fixed-point release system, which means only one Roblox build is supported at a time per Sober update and there are no automatic updates to the next build. Manually attempting to update Roblox will not work since it requires a specific build version in order to install.
