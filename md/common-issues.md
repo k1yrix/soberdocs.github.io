@@ -125,3 +125,14 @@ Six out of ten chances are that your ISP is blocking access to Google Play's API
 
 ### Solution
 Use a VPN
+
+---
+
+## Attempting to manually install the Roblox APK goes straight to "Invalid Bundle" screen
+Sober wasn't able to find or open a file picker because it was invalid and does not know what to do, so it displays "Invalid Bundle" without prompting to choose an APK file. This is sometimes problematic for several DEs that don't come with their own file pickers.
+
+### DEs affected
+- Hyprland
+
+### Solution
+Make sure that the file picker for your DE is installed correctly.
