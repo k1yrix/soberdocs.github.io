@@ -120,7 +120,7 @@ It means that the Roblox build Sober is in has reached it's end of the lifespan.
 
 ---
 
-## Automatic download isn't working (Long hang time, falls back to manual install)
+## Automatic download isn't working (Long hang time; falls back to manual install)
 Six out of ten chances are that your ISP is blocking access to Google Play's APIs, which is what Sober is attempting to contact in order to download the correct APK file. Otherwise, either you should check your internet connection or the API is down.
 
 ### Solution
