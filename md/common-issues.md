@@ -117,3 +117,22 @@ It means that the Roblox build Sober is in has reached it's end of the lifespan.
 
 > This is actually an uncommon issue, since it only happens once every approximate month, but this is just here in case it happens.
 > Sober uses a fixed-point release system, which means only one Roblox build is supported at a time per Sober update and there are no automatic updates to the next build. Manually attempting to update Roblox will not work since it requires a specific build version in order to install.
+
+---
+
+## Automatic download isn't working (Long hang time; falls back to manual install)
+Three out of ten chances is that your ISP is blocking access to Google Play's APIs, which is what Sober is attempting to contact in order to download the correct APK file. Otherwise, either you should check your internet connection or the API is down.
+
+### Solution
+Use a VPN
+
+---
+
+## Attempting to manually install the Roblox APK goes straight to "Invalid Bundle" screen
+Sober wasn't able to find or open a file picker because it was invalid and does not know what to do, so it displays "Invalid Bundle" without prompting to choose an APK file. This is sometimes problematic for several DEs that don't come with their own file pickers.
+
+### DEs affected
+- Hyprland
+
+### Solution
+Make sure that the file picker for your DE is installed correctly.
