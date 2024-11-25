@@ -16,3 +16,25 @@ You can set `"bring_back_oof"` to `true` in `~/.var/app/org.vinegarhq.Sober/data
 > **WARNING**: Modifying FastFlags here is not officialy supported. If you run into issues, you should delete your custom FastFlags first. Continue at your own Risk!
 
 You can edit them here: `~/.var/app/org.vinegarhq.Sober/data/sober/exe/ClientSettings/ClientAppSettings.json`
+
+##### Default-set FastFlags
+These are the default FastFlags that are set by default on Sober as of Sober version `0.0.0-9619e88`:
+
+```json
+{
+    "DFFlagDisableDPIScale": true,
+    "DFIntTaskSchedulerTargetFps": 0,
+    "FFlagAdServiceEnabled": false,
+    "FFlagDebugDisableTelemetryEphemeralCounter": true,
+    "FFlagDebugDisableTelemetryEphemeralStat": true,
+    "FFlagDebugDisableTelemetryEventIngest": true,
+    "FFlagDebugDisableTelemetryPoint": true,
+    "FFlagDebugDisableTelemetryV2Counter": true,
+    "FFlagDebugDisableTelemetryV2Event": true,
+    "FFlagDebugDisableTelemetryV2Stat": true,
+    "FFlagFutureIsBrightPhase3Vulkan": true,
+    "FFlagGameBasicSettingsFramerateCap5": true,
+    "FFlagTextureDeduplicationByHash4": false,
+    "FLogFMOD": 0
+}
+```
