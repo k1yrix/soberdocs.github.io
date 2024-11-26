@@ -123,6 +123,8 @@ It means that the Roblox build Sober is in has reached it's end of the lifespan.
 ## Automatic download isn't working (Long hang time; falls back to manual install)
 Three out of ten chances is that your ISP is blocking access to Google Play's APIs, which is what Sober is attempting to contact in order to download the correct APK file. Otherwise, either you should check your internet connection or the API is down.
 
+> There have also been reports of being unable to copy the apk to a directory
+
 ### Solution
 Use a VPN
 
@@ -135,4 +137,4 @@ Sober wasn't able to find or open a file picker because it was invalid and does 
 - Hyprland
 
 ### Solution
-Make sure that the file picker for your DE is installed correctly.
+Make sure that the file picker for your DE is installed and set correctly.
