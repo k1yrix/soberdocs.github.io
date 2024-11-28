@@ -157,4 +157,4 @@ Categories=Game
 Icon=org.vinegarhq.Sober
 X-Flatpak=org.vinegarhq.Sober
 ```
-then create a symlink of that `.desktop` entry to `/home/[user]/.local/share/flatpak/exports/share/applications`.
+then/or create a symlink of that `.desktop` entry to `/home/[user]/.local/share/flatpak/exports/share/applications`.
