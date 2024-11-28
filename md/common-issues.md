@@ -138,3 +138,23 @@ Sober wasn't able to find or open a file picker because it was invalid and does 
 
 ### Solution
 Make sure that the file picker for your DE is installed and set correctly.
+
+---
+
+## I don't have a shortcut for Sober after installing
+Either your distro does not know that it exists or Flatpak failed to create one when you install it.
+
+### Solution
+Make sure that there are both `.desktop` enteries in `/home/[user]/.local/share/flatpak/exports/share/applications` and `/home/[user]/.local/share/flatpak/app/org.vinegarhq.Sober/current/active/export/share/applications`. If there isn't you should create one at ``/home/[user]/.local/share/flatpak/app/org.vinegarhq.Sober/current/active/export/share/applications`` with the following:
+```
+[Desktop Entry]
+Type=Application
+Name=Sober
+Exec=/usr/bin/flatpak run --branch=master --arch=x86_64 --command=sober --file-forwarding org.vinegarhq.Sober --@@u %u @@
+Terminal=false
+MimeType=x-scheme-handler/roblox;x-scheme-handler/roblox-player
+Categories=Game
+Icon=org.vinegarhq.Sober
+X-Flatpak=org.vinegarhq.Sober
+```
+then create a symlink of that `.desktop` entry to `/home/[user]/.local/share/flatpak/exports/share/applications`.
