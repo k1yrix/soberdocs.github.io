@@ -142,10 +142,12 @@ Make sure that the file picker for your DE is installed and set correctly.
 ---
 
 ## I don't have a shortcut for Sober after installing
-Either your distro does not know that it exists or Flatpak failed to create one when you install it.
+Either your DE does not know that it exists, Flatpak failed to create one when you install it, or it is yet to be indexed by the DE.
 
 ### Solution
-Make sure that there are both `.desktop` enteries in `/home/[user]/.local/share/flatpak/exports/share/applications` and `/home/[user]/.local/share/flatpak/app/org.vinegarhq.Sober/current/active/export/share/applications`. If there isn't you should create one at ``/home/[user]/.local/share/flatpak/app/org.vinegarhq.Sober/current/active/export/share/applications`` with the following:
+Wait for the DE to index the shortcut first.
+
+If it doesn't index, make sure that there are both `.desktop` enteries in `/home/[user]/.local/share/flatpak/exports/share/applications` and `/home/[user]/.local/share/flatpak/app/org.vinegarhq.Sober/current/active/export/share/applications`. If there isn't you should create one at `/home/[user]/.local/share/flatpak/app/org.vinegarhq.Sober/current/active/export/share/applications` with the following:
 ```
 [Desktop Entry]
 Type=Application
@@ -157,4 +159,4 @@ Categories=Game
 Icon=org.vinegarhq.Sober
 X-Flatpak=org.vinegarhq.Sober
 ```
-then/or create a symlink of that `.desktop` entry to `/home/[user]/.local/share/flatpak/exports/share/applications`.
+then/or create a symlink of that `.desktop` entry to `/home/[user]/.local/share/flatpak/exports/share/applications`. Afterwards, follow the instructions for your DE to add the entry.
