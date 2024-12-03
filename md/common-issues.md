@@ -2,9 +2,24 @@
 
 ---
 
-##  Your version of Roblox may be out of date. Please update Roblox and try again. (Error Code: 280)
+## It says Roblox is out of date (Error 280), but Sober isn't updating!
+It means that the Roblox build Sober is in has reached it's end of the lifespan. If you are reading this, and Sober hasn't been updated, please wait until they do. Otherwise, you will have to run `flatpak update`.
 
-This happens when Sober's version of the Roblox APK is too old to be used on Roblox, give the devs a few hours to fix the issue. You should be able to play by the next day.
+> This is actually an uncommon issue, since it only happens once every approximate month if Sober is left without an update to a newer Roblox build, but this is just here in case it happens.
+> Sober uses a fixed-point release system, which means only one Roblox build is supported at a time per Sober update and there are no automatic updates to the next build. Manually attempting to update Roblox will not work since it requires a specific build version in order to install.
+
+<details>
+  <summary>Roblox build estimated cutoff table</summary>
+  This table provides an estimated range when Roblox cuts out a build. Roblox builds typically last approximately a month before Roblox cuts out the build from accepting to the servers.
+
+| Build #                      | Supported? | Estimated cutoff range             | Actual cutoff date |
+| ---------------------------- | ---------- | ---------------------------------- | ------------------ |
+| 649 (Current Sober build)    | **No**     | 11/28/24 - 12/07/24                | 12/02/24           |
+| 650                          | Yes        | 12/03/24 - 12/11/24                | N/A                |
+| 651                          | Yes        | 12/12/24 - 12/17/24                | N/A                |
+| 652                          | Yes        | 12/18/24 - 12/26/24                | N/A                |
+  
+</details>
 
 ---
 
@@ -115,14 +130,6 @@ Roblox sometimes forgets you have a mouse and removes the options.
 
 ### Solution
 Move your mouse while joining a game.
-
----
-
-## It says Roblox is out of date (Error 280), but Sober isn't updating!
-It means that the Roblox build Sober is in has reached it's end of the lifespan. If you are reading this, and Sober hasn't been updated, please wait until they do. Otherwise, you will have to run `flatpak update`.
-
-> This is actually an uncommon issue, since it only happens once every approximate month if Sober is left without an update to a newer Roblox build, but this is just here in case it happens.
-> Sober uses a fixed-point release system, which means only one Roblox build is supported at a time per Sober update and there are no automatic updates to the next build. Manually attempting to update Roblox will not work since it requires a specific build version in order to install.
 
 ---
 
