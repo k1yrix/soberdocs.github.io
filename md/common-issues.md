@@ -153,7 +153,7 @@ Either your DE does not know that it exists, Flatpak failed to create one when y
 ### Solution
 Wait for the DE to index the shortcut first.
 
-If it doesn't index, make sure that there are both `.desktop` enteries in `/home/[user]/.local/share/flatpak/exports/share/applications` and `/home/[user]/.local/share/flatpak/app/org.vinegarhq.Sober/current/active/export/share/applications`. If there isn't you should create one at `/home/[user]/.local/share/flatpak/app/org.vinegarhq.Sober/current/active/export/share/applications` with the following:
+If it doesn't index, make sure that there are both `.desktop` entries in `/home/[user]/.local/share/flatpak/exports/share/applications` and `/home/[user]/.local/share/flatpak/app/org.vinegarhq.Sober/current/active/export/share/applications`. If there isn't you should create one at `/home/[user]/.local/share/flatpak/app/org.vinegarhq.Sober/current/active/export/share/applications` with the following:
 ```
 [Desktop Entry]
 Type=Application
