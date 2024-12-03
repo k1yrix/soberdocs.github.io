@@ -2,6 +2,12 @@
 
 ---
 
+##  Your version of Roblox may be out of date. Please update Roblox and try again. (Error Code: 280)
+
+This happens when Sober's version of the Roblox APK is too old to be used on Roblox, give the devs a few hours to fix the issue. You should be able to play by the next day.
+
+---
+
 ## RBXCRASH: OutOfMemory (Failed to allocate memory. size = [x], alignment = [y])
 
 That means your graphics card ran out of video memory that Sober is trying to load on. This is especially problematic for NVIDIA users because the drivers have terrible written Linux drivers for VRAM handling. (There has been reports of Intel Haswell and earlier iGPU users facing issues like this too)
