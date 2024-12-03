@@ -12,12 +12,12 @@ It means that the Roblox build Sober is in has reached it's end of the lifespan.
   <summary>Roblox build estimated cutoff table</summary>
   This table provides an estimated range when Roblox cuts out a build. Roblox builds typically last approximately a month before Roblox cuts out the build from accepting to the servers.
 
-| Build #                      | Supported? | Estimated cutoff range             | Actual cutoff date |
-| ---------------------------- | ---------- | ---------------------------------- | ------------------ |
-| 649 (Current Sober build)    | **No**     | 11/28/24 - 12/07/24                | 12/02/24           |
-| 650                          | Yes        | 12/03/24 - 12/11/24                | N/A                |
-| 651                          | Yes        | 12/12/24 - 12/17/24                | N/A                |
-| 652                          | Yes        | 12/18/24 - 12/26/24                | N/A                |
+| Build #                      | Build release date | Supported? | Estimated cutoff range             | Actual cutoff date |
+| ---------------------------- | ------------------ | ---------- | ---------------------------------- | ------------------ |
+| 649 (Current Sober build)    | 10/31/24           | **No**     | 11/28/24 - 12/07/24                | 12/02/24           |
+| 650                          | 11/07/24           | Yes        | 12/03/24 - 12/11/24                | N/A                |
+| 651                          | 11/14/24           | Yes        | 12/12/24 - 12/17/24                | N/A                |
+| 652                          | 11/21/24           | Yes        | 12/18/24 - 12/26/24                | N/A                |
   
 </details>
 
