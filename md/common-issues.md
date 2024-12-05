@@ -18,6 +18,7 @@ It means that the Roblox build Sober is in has reached it's end of the lifespan.
 | 650                              | 11/07/24           | Yes        | 12/03/24 - 12/11/24                | N/A                |
 | 651                              | 11/14/24           | Yes        | 12/12/24 - 12/17/24                | N/A                |
 | 652 **(Current Sober build)**    | 11/21/24           | Yes        | 12/18/24 - 12/26/24                | N/A                |
+| 653                              | 12/05/24           | Yes        | 01/03/25 - 01/07/25                | N/A                |
   
 </details>
 
