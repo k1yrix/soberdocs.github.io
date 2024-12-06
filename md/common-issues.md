@@ -2,6 +2,28 @@
 
 ---
 
+## It says Roblox is out of date (Error 280), but Sober isn't updating!
+It means that the Roblox build Sober is in has reached it's end of the lifespan. If you are reading this, and Sober hasn't been updated, please wait until they do. Otherwise, you will have to run `flatpak update`.
+
+> This is actually an uncommon issue, since it only happens once every approximate two weeks to a month if Sober is left without an update to a newer Roblox build, but this is just here in case it happens.
+> Sober uses a fixed-point release system, which means only one Roblox build is supported at a time per Sober update and there are no automatic updates to the next build. Manually attempting to update Roblox will not work since it requires a specific build version in order to install.
+
+<details>
+  <summary>Roblox build estimated cutoff table</summary>
+  This table provides an estimated range when Roblox cuts out a build. Roblox builds typically last approximately a month before Roblox cuts out the build from being accepted to the servers.
+
+| Build #                          | Build release date | Supported? | Estimated cutoff range             | Actual cutoff date |
+| -------------------------------- | ------------------ | ---------- | ---------------------------------- | ------------------ |
+| 649                              | 10/31/24           | **No**     | 11/28/24 - 12/07/24                | 12/02/24           |
+| 650                              | 11/07/24           | Yes        | 12/03/24 - 12/11/24                | N/A                |
+| 651                              | 11/14/24           | Yes        | 12/12/24 - 12/17/24                | N/A                |
+| 652 **(Current Sober build)**    | 11/21/24           | Yes        | 12/18/24 - 12/26/24                | N/A                |
+| 653                              | 12/05/24           | Yes        | 01/03/25 - 01/07/25                | N/A                |
+  
+</details>
+
+---
+
 ## RBXCRASH: OutOfMemory (Failed to allocate memory. size = [x], alignment = [y])
 
 That means your graphics card ran out of video memory that Sober is trying to load on. This is especially problematic for NVIDIA users because the drivers have terrible written Linux drivers for VRAM handling. (There has been reports of Intel Haswell and earlier iGPU users facing issues like this too)
@@ -112,14 +134,6 @@ Move your mouse while joining a game.
 
 ---
 
-## It says Roblox is out of date (Error 280), but Sober isn't updating!
-It means that the Roblox build Sober is in has reached it's end of the lifespan. If you are reading this, and Sober hasn't been updated, please wait until they do. Otherwise, you will have to run `flatpak update`.
-
-> This is actually an uncommon issue, since it only happens once every approximate month if Sober is left without an update to a newer Roblox build, but this is just here in case it happens.
-> Sober uses a fixed-point release system, which means only one Roblox build is supported at a time per Sober update and there are no automatic updates to the next build. Manually attempting to update Roblox will not work since it requires a specific build version in order to install.
-
----
-
 ## Automatic download isn't working (Long hang time; falls back to manual install)
 Three out of ten chances is that your ISP is blocking access to Google Play's APIs, which is what Sober is attempting to contact in order to download the correct APK file. Otherwise, either you should check your internet connection or the API is down.
 
@@ -138,3 +152,25 @@ Sober wasn't able to find or open a file picker because it was invalid and does 
 
 ### Solution
 Make sure that the file picker for your DE is installed and set correctly.
+
+---
+
+## I don't have a shortcut for Sober after installing
+Either your DE does not know that it exists, Flatpak failed to create one when you install it, or it is yet to be indexed by the DE.
+
+### Solution
+Wait for the DE to index the shortcut first.
+
+If it doesn't index, make sure that there are both `.desktop` entries in `/home/[user]/.local/share/flatpak/exports/share/applications` and `/home/[user]/.local/share/flatpak/app/org.vinegarhq.Sober/current/active/export/share/applications`. If there isn't you should create one at `/home/[user]/.local/share/flatpak/app/org.vinegarhq.Sober/current/active/export/share/applications` with the following:
+```
+[Desktop Entry]
+Type=Application
+Name=Sober
+Exec=/usr/bin/flatpak run --branch=master --arch=x86_64 --command=sober --file-forwarding org.vinegarhq.Sober --@@u %u @@
+Terminal=false
+MimeType=x-scheme-handler/roblox;x-scheme-handler/roblox-player
+Categories=Game
+Icon=org.vinegarhq.Sober
+X-Flatpak=org.vinegarhq.Sober
+```
+then/or create a symlink of that `.desktop` entry to `/home/[user]/.local/share/flatpak/exports/share/applications`. Afterwards, follow the instructions for your DE to add the entry.

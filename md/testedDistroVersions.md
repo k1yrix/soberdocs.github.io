@@ -36,6 +36,8 @@
 ## Rolling release distros
 > Rolling release distros usually don't have a point release version. For this, it will be tested peridotically. On the table, the test date is the most contextical.
 
+> There is currently an issue in Arch distros (especially if it's a fresh install) where attempting to install NVIDIA 565 Flatpak drivers in user mode (`--user`) will result in a Segmentation Fault error. The current only workaround is to install Sober on system level (without `--user`)
+
 ### Arch Linux
 | Test date | Test authored by                              | Test method               | Installs? | Runs? | Notes |
 | --------- | --------------------------------------------- | ------------------------- | --------- | ----- | ----- |
