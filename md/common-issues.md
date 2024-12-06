@@ -31,8 +31,7 @@ That means your graphics card ran out of video memory that Sober is trying to lo
 The main culprit behind this is basically due to textures being loaded at the highest quality possible, which is the default setting.
 
 ### Solution
-Append the following FFlags into `~/.var/app/org.vinegarhq.Sober/data/sober/exe/ClientSettings/ClientAppSettings.json`
-
+Append the following FFlags into the `"fflags"` section at `~/.var/app/org.vinegarhq.Sober/config/sober/config.json`
 ```
 "DFIntTextureQualityOverride": 2,
 "DFFlagTextureQualityOverrideEnabled": true
@@ -161,7 +160,7 @@ Either your DE does not know that it exists, Flatpak failed to create one when y
 ### Solution
 Wait for the DE to index the shortcut first.
 
-If it doesn't index, make sure that there are both `.desktop` entries in `/home/[user]/.local/share/flatpak/exports/share/applications` and `/home/[user]/.local/share/flatpak/app/org.vinegarhq.Sober/current/active/export/share/applications`. If there isn't you should create one at `/home/[user]/.local/share/flatpak/app/org.vinegarhq.Sober/current/active/export/share/applications` with the following:
+If it doesn't index, make sure that there are both `.desktop` entries in `~/.local/share/flatpak/exports/share/applications` and `/home/[user]/.local/share/flatpak/app/org.vinegarhq.Sober/current/active/export/share/applications`. If there isn't you should create one at `/home/[user]/.local/share/flatpak/app/org.vinegarhq.Sober/current/active/export/share/applications` with the following:
 ```
 [Desktop Entry]
 Type=Application
@@ -173,4 +172,4 @@ Categories=Game
 Icon=org.vinegarhq.Sober
 X-Flatpak=org.vinegarhq.Sober
 ```
-then/or create a symlink of that `.desktop` entry to `/home/[user]/.local/share/flatpak/exports/share/applications`. Afterwards, follow the instructions for your DE to add the entry.
+then/or create a symlink of that `.desktop` entry to `~/.local/share/flatpak/exports/share/applications`. Afterwards, follow the instructions for your DE to add the entry.
